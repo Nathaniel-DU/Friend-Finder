@@ -1,6 +1,6 @@
 var friendMatch = require('../data/friends.js');
 
-//ROUTING
+
 // Two Routes with express parameters
 module.exports = function(app) {
    // A GET json route to display all possible friends
