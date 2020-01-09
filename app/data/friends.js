@@ -1,18 +1,18 @@
 var friendMatch = [
   {
-    name: "Aaron Rodgers",
+    name: "Red Ranger",
     photo: "images/red-ranger.jpg",
     scores: ["2", "2", "2", "2", "2"]
   }, {
-    name: "Aaron Judge",
+    name: "Black Ranger",
     photo: "images/black-ranger.jpg ",
     scores: ["3", "3", "3", "3", "3"]
   }, {
-    name: " Alex Morgan",
+    name: " Blue Ranger",
     photo: "images/blue-ranger.jpg",
     scores: ["1", "1", "1", "1", "1"]
   }, {
-    name: "Christen Press",
+    name: "Pink Ranger",
     photo: "images/pink-ranger.jpg",
     scores: ["3", "3", "3", "3", "1"]
   },
