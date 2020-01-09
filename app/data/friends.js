@@ -1,4 +1,4 @@
-app.use(express.static('public'))
+
 var friendMatch = [
   {
     name: "Red Ranger",
@@ -23,3 +23,4 @@ var friendMatch = [
 
 
 module.exports = friendMatch;
+app.use(express.static('public'))
