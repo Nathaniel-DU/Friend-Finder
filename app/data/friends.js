@@ -1,20 +1,19 @@
-
 var friendMatch = [
   {
     name: "Red Ranger",
-    photo: "/red-ranger.jpg",
+    photo: "images/red-ranger.jpg",
     scores: ["2", "2", "2", "2", "2"]
   }, {
     name: "Black Ranger",
-    photo: "/black-ranger.jpg ",
+    photo: "images/black-ranger.jpg ",
     scores: ["3", "3", "3", "3", "3"]
   }, {
     name: " Blue Ranger",
-    photo: "/blue-ranger.jpg",
+    photo: "images/blue-ranger.jpg",
     scores: ["1", "1", "1", "1", "1"]
   }, {
     name: "Pink Ranger",
-    photo: "/pink-ranger.jpg",
+    photo: "images/pink-ranger.jpg",
     scores: ["3", "3", "3", "3", "1"]
   },
 
@@ -23,4 +22,3 @@ var friendMatch = [
 
 
 module.exports = friendMatch;
-app.use(express.static('public'))
