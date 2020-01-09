@@ -1,3 +1,4 @@
+var images = require("../images")
 var friendMatch = [
   {
     name: "Red Ranger",
