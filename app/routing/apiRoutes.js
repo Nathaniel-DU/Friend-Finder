@@ -1,16 +1,16 @@
 var friendMatch = require('../data/friends.js');
 
 
-// Two Routes with express parameters
+//express params
 module.exports = function(app) {
-   // A GET json route to display all possible friends
+   // A GET json route to display all friends
   app.get('/api/friends', function (req, res) {
     res.json(friendMatch);
   });
   // A POST route to handle incoming survey results
   app.post('/api/friends', function (req, res) {
 
-    //req.body is available since we're using body-parser middleware
+    //req.body is available because of body-parser
     var newFriend = req.body;
     //score loop
     for(var i = 0; i < newFriend.scores.length; i++) {
@@ -53,9 +53,9 @@ module.exports = function(app) {
         bestFriendI = i;
       }
     }
-    //push new friend
+    //push friend
     friendMatch.push(newFriend);
-    //json bf to the current friend match array
+    //current friend match array
     res.json(friendMatch[bestFriendI]);
   });
 };
